@@ -73,6 +73,7 @@ public class Home_Page_All_Links {
 		
 		
 	 }
+	 driver.quit();
    }
 }
 
