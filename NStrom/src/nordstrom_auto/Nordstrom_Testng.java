@@ -16,7 +16,7 @@ String html;
 Document doc;
 	@BeforeSuite
 	public void openBrowser(){
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\MyGitProjects\\Nstrom-repo\\NStrom\\chromedriver.exe");
 		driver=new ChromeDriver();
 		//System.setProperty("phantomjs.binary.path",System.getProperty("user.dir") + "\\phantomjs.exe");
 	    //driver = new PhantomJSDriver();
