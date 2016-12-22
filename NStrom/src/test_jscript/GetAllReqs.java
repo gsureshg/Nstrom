@@ -24,8 +24,8 @@ public class GetAllReqs {
 	static WebDriver driver;
 	public static void main(String[] args) throws IOException {
 		System.setProperty("webdriver.chrome.driver",
-//				System.getProperty("user.dir") + 
-				"E:\\MyGitProjects\\Nstrom-repo\\NStrom\\chromedriver.exe");
+				System.getProperty("user.dir") + 
+				"\\chromedriver.exe");
 		// start the proxy
 	    BrowserMobProxy proxy = new BrowserMobProxyServer();
 	    
